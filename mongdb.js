@@ -1,0 +1,10 @@
+// 1. {}
+// 2. { product_price: { $gte: 400, $lte: 800 } }
+// 3. { $or: [{ product_price: { $lt: 400 } }, { product_price: { $gt: 600 } }] }
+// 4. { product_price: { $gt: 500 } }
+// 5. {},{ product_name: 1, product_material: 1, _id: 0 }
+// 6. { id: "10" }
+// 7. {},{ product_name: 1, product_material: 1, _id: 0 }
+// 8. { product_material: { $regex: /soft/i } }
+// 9. { product_color: "indigo",product_price: 492.00 } no product found
+// 10. { product_price: { $eq: 492.00 } }
